@@ -1,0 +1,26 @@
+@media all and (max-width: 1300px) {
+  .header__list {
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 900px) {
+  .navbar__list {
+    width: 50%;
+  }
+  .navbar__logo {
+    width: 15%;
+  }
+  .content {
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 600px) {
+  .navbar__list {
+    width: 60%;
+  }
+}
+@media all and (max-width: 400px) {
+  .navbar__list {
+    width: 66%;
+  }
+}

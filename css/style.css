@@ -1,0 +1,114 @@
+body {
+  background-color: rgb(227, 219, 219);
+  color: rgb(57, 43, 70);
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 2% 0;
+}
+/* navbar styles start */
+.navbar {
+  display: flex;
+}
+
+.navbar__logo {
+  width: 8%;
+}
+.navbar__list {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+.navbar__list_item > a {
+  text-decoration: none;
+  color: #35414b;
+  transition: 0.8s;
+}
+/* navbar styles end */
+/* header styles start */
+.header {
+  display: flex;
+}
+.header__block h1 {
+  color: rgb(57, 43, 70);
+}
+.header__block h2 {
+  color: rgb(57, 43, 70);
+}
+.header__block1 {
+  width: 40%;
+}
+.header__block2 {
+  width: 40%;
+}
+
+.header__img {
+  width: 50%;
+  border-radius: 200px;
+}
+.header__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+/* header styles end */
+/* content styles start */
+.content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.content__block_left {
+  width: 20%;
+  margin-left: 35px;
+}
+.content__block_right {
+  width: 60%;
+}
+.content__item {
+  font-size: 16px;
+}
+.content__block_right {
+  width: 50%;
+}
+.skills {
+  text-align: right;
+  padding: 10px 0;
+  color: white;
+}
+
+.html {
+  background-color: rgb(93, 12, 93);
+  width: 56%;
+}
+.css {
+  background-color: rgb(93, 12, 93);
+  width: 56%;
+}
+.flexbox {
+  background-color: rgb(93, 12, 93);
+  width: 46%;
+}
+.bootstrap {
+  background-color: rgb(93, 12, 93);
+  width: 36%;
+}
+/* content styles end */
+/* footer styles start */
+.footer {
+  width: 100%;
+}
+.footer__img {
+  width: 3%;
+}
+
+/* footer styles end */
